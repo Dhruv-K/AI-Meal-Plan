@@ -10,7 +10,7 @@ from prompts import pre_prompt_b, pre_prompt_l, pre_prompt_d, pre_breakfast, pre
 
 # ANTHROPIC_API_KEY = st.secrets["anthropic_apikey"]
 # OPEN_AI_API_KEY = st.secrets["openai_apikey"]
-ANYSCALE_API = st.secrets[ANTHROPIC_APIKEY]
+ANYSCALE_API = st.secrets["ANTHROPIC_APIKEY"]
 
 openai.api_key = ANYSCALE_API
 openai.api_base = "https://api.endpoints.anyscale.com/v1"
